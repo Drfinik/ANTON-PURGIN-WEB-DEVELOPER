@@ -1,3 +1,4 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 * {
   margin: 0;
   padding: 0;
@@ -32,6 +33,14 @@
   padding-right: 60px;
 }
 
+.logoTip {
+  height: 26px;
+  width: 65px;
+  margin-top: 39px;
+  margin-bottom: 39px;
+  padding-left: 60px;
+}
+
 .link {
   text-decoration: none;
 }
@@ -62,14 +71,22 @@
   margin-bottom: 42px;
 }
 
-.footer {
+.navLeftFooter {
   display: flex;
-  justify-content: space-around;
 }
 
-.footer__text {
+.logoTipFooter {
+  padding-top: 10px;
+}
+
+.navRightFooter {
+  margin-top: 39px;
+  margin-bottom: 39px;
+  padding-right: 60px;
+}
+
+.textFooter {
   height: 26px;
-  width: 65px;
   border-radius: 0px;
   font-family: Arial;
   font-size: 17px;
@@ -78,15 +95,36 @@
   letter-spacing: 0em;
   text-align: left;
   color: #000000;
-  padding: 30px 0 30px 0;
+  margin-bottom: 39px;
+  padding-right: 60px;
+  padding-top: 10px;
 }
 
-.footer__nav {
-  list-style-type: none;
-  display: flex;
-  padding: 24px 0 23px 0;
+.textFooterLeft {
+  padding-left: 100px;
+  padding-top: 50px;
 }
 
-.footer__padding__right {
-  padding-right: 7px;
+.social a {
+  text-align: center;
+  width: 29px;
+  height: 29px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: #000;
+}
+
+.github a:hover {
+  background: #191919;
+  color: #fff;
+}
+
+.telegram a:hover {
+  background: #249bd7;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
