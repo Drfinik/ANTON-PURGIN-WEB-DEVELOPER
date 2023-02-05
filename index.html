@@ -11,18 +11,16 @@
 
 <body>
 
-    <header class="container">
+    <header class="container" id="top">
         <nav>
             <ul class="listStyleType">
-                <div navLeft><li>
-                    <a class="link" href="">
-                        <div class="text" >DWEL®</div>
-                    </a>
+                <div class="navLeft"><li>
+                    <div class="logoTip"><img src="img/logoTip1.png" alt=""></div>
                 </li></div>
-                <div class="navRight"><li> <a class="link" href="">
+                <div class="navRight"><li> <a class="link" href="#PROJECTS">
                     <div class="text ">PROJECTS</div>
                 </a></li>
-            <li> <a class="link" href="">
+            <li> <a class="link" href="#INFO">
                     <div class="text textInfo">INFO</div>
                 </a></li></div>
             </ul>
@@ -31,7 +29,7 @@
 
     </header>
     <main class="container">
-        <div class="text">PROJECTS</div>
+        <div class="text" id="PROJECTS">PROJECTS</div>
         <div class="project">
             <div><div class="projectCard"> <img src="img/Village Pt.png" alt="Village Pt"><div class="text textCard">Village&nbsp;Pt</div></div></div>        
             <div><div class="projectCard"> <img src="img/Franklin.png" alt="Franklin"><div class="text textCard">Franklin</div></div></div>      
@@ -45,21 +43,35 @@
             <div><div class="projectCard"> <img src="img/Brentwood.png" alt="Brentwood"><div class="text textCard">Brentwood</div></div></div>  
         </div>
     </main>
-    <footer class="container footer ">
-        <div class="footer_info">
-            <div class="footer__text">&copy;&nbsp;2021&nbsp;Brand&nbsp;All&nbsp;Rights&nbsp;Reserved.</div>
-        </div>
+    <footer class="container" id="INFO">
         <nav>
-            <ul class="footer__nav">
-                <li><a class="footer__padding__right" href="https://www.facebook.com/" target="_blank"><img
-                            src="image/facebook.svg" alt="facebook"></a></li>
-                <li><a class="footer__padding__right" href="https://www.instagram.com/" target="_blank"><img
-                            src="image/instagram.svg" alt="instagram"></a></li>
-                <li><a class="footer__padding__right" href="https://www.pinterest.ru/" target="_blank"><img
-                            src="image/pinterest.svg" alt="pinterest"></a></li>
-                <li><a href="https://twitter.com/" target="_blank"><img src="image/twitter.svg" alt="twitter"></a></li>
+            <ul class="listStyleType">
+                <div class="navLeft navLeftFooter">
+                    <li>
+                      <div class="logoTip logoTipFooter"><a href="#top"><img src="img/logoTip1.png" alt=""></a>
+                      </div>
+                    </li>
+                    <li><div class="textFooter textFooterLeft">&copy;&nbsp;2023&nbsp;АNTON&nbsp;PURGIN&nbsp;WEB&nbsp;DEVELOPER.&nbsp;All&nbsp;Rights&nbsp;Reserved.</div></li>
+                </div>
+                <div class="navRight navRightFooter">
+                    
+                    <li><div class="textFooter">CONTACTS:</div></li>
+                    <li>
+                         <div class="social github">
+                            <a href="https://github.com/Drfinik" target="_blank">
+                                <i class="fa fa-github fa-2x">
+                                </i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="social telegram">
+                            <a href="https://t.me/antonPurginWebDeveloper" target="_blank"><i class="fa fa-paper-plane fa-2x"></i></a>
+                        </div>
+                    </li>
+                </div>
             </ul>
-        </nav>
+        </nav> 
     </footer>
 </body>
 
