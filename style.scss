@@ -46,13 +46,17 @@
 .navRight {
     display: flex;
 }
+.navRightPadding {
+    padding-left: 850px;
+}
 .textInfo {
     text-align: right;
 }
 .imgPadding{
-    width: auto;
-    height: auto;
-    margin-bottom: 81px;
+    /* width: 100%;*/
+   /* height: auto;*/
+   margin-bottom: 81px;
+   text-align: center;
     
 }
 .project {
